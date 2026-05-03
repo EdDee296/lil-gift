@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Wedding RSVP - Design 2: Romantic Maximalist</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <title>Marie & Koffi — Wedding RSVP</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -15,82 +15,125 @@
         <button class="lang-btn" data-lang="fr" id="btnLangFr" type="button">FR</button>
     </div>
 
+    <div class="lang-hint" id="langHint">
+        <div class="arrow">↑</div>
+        <span>Choose language</span>
+    </div>
+
     <div class="hero">
         <div class="hero-overlay"></div>
         <div class="hero-inner">
         <div class="hero-ornament">- ✦ -</div>
         <p class="hero-invitation" id="heroInvitation">You are invited to the wedding of</p>
-        <h1 class="hero-names"><em>Sophie</em></h1>
+        <h1 class="hero-names"><em>Marie</em></h1>
         <span class="hero-amp">&</span>
-        <h1 class="hero-names"><em>Antoine</em></h1>
+        <h1 class="hero-names"><em>Koffi</em></h1>
         <div class="hero-date-wrap">
             <div class="hero-date-line"></div>
-            <span class="hero-date" id="heroDate">June 14, 2025 · Paris</span>
+            <span class="hero-date" id="heroDate">August 15, 2026 · Edmonton, AB</span>
             <div class="hero-date-line"></div>
-        </div>
-        <div class="hero-photo-hint">
-            <label for="heroBgUpload" class="hero-upload-btn" id="heroUploadBtn">+ Set hero photo</label>
-            <input type="file" id="heroBgUpload" accept="image/*" style="display:none">
         </div>
         </div>
     </div>
 
-        <section class="story">
-            <div class="story-inner">
-                <h2 class="story-title" id="storyTitle">Our Story...</h2>
+    <section class="story">
+        <div class="story-inner">
+            <h2 class="story-title" id="storyTitle">Our Story...</h2>
 
-                <div class="timeline-horizontal">
-                    <div class="timeline-line"></div>
-                    <div class="timeline-dots">
-                        <span style="left: 12%;"></span>
-                        <span style="left: 27%;"></span>
-                        <span style="left: 45%;"></span>
-                        <span style="left: 62%;"></span>
-                        <span style="left: 82%;"></span>
-                    </div>
-
-                    <article class="story-point top p1">
-                        <img src="https://placehold.co/420x520/fdfbf7/6b5a9e?text=Story+1" alt="Milestone photo placeholder 1">
-                        <div class="story-meta">
-                            <span id="storyDate1">10.07.2017</span>
-                            <p id="storyText1">We met & fell in love</p>
-                        </div>
-                    </article>
-
-                    <article class="story-point bottom p2">
-                        <img src="https://placehold.co/420x520/fdfbf7/6b5a9e?text=Story+2" alt="Milestone photo placeholder 2">
-                        <div class="story-meta">
-                            <span id="storyDate2">07.07.2018</span>
-                            <p id="storyText2">We adventured...<br>with a lot of fishing</p>
-                        </div>
-                    </article>
-
-                    <article class="story-point top p3">
-                        <img src="https://placehold.co/420x520/fdfbf7/6b5a9e?text=Story+3" alt="Milestone photo placeholder 3">
-                        <div class="story-meta">
-                            <span id="storyDate3">12.21.2019</span>
-                            <p id="storyText3">We proclaimed<br>our love together!</p>
-                        </div>
-                    </article>
-
-                    <article class="story-point bottom p4">
-                        <img src="https://placehold.co/420x520/fdfbf7/6b5a9e?text=Story+4" alt="Milestone photo placeholder 4">
-                        <div class="story-meta">
-                            <span id="storyDate4">08.24.2020</span>
-                            <p id="storyText4">We moved<br>& started a new chapter</p>
-                        </div>
-                    </article>
-
-                    <article class="story-point top p5">
-                        <img src="https://placehold.co/420x520/fdfbf7/6b5a9e?text=Story+5" alt="Milestone photo placeholder 5">
-                        <div class="story-meta">
-                            <span id="storyDate5">01.24.2023</span>
-                            <p id="storyText5">WE'RE<br>ENGAGED!</p>
-                        </div>
-                    </article>
+            <div class="timeline-horizontal">
+                <div class="timeline-line"></div>
+                <div class="timeline-dots">
+                    <span style="left: 13%;"></span>
+                    <span style="left: 27%;"></span>
+                    <span style="left: 41%;"></span>
+                    <span style="left: 59%;"></span>
+                    <span style="left: 73%;"></span>
+                    <span style="left: 87%;"></span>
                 </div>
+
+                <!-- 1: April 20, 2018 — Met at the bank -->
+                <article class="story-point top p1">
+                    <img src="assets/april2020218.jpeg" alt="April 20, 2018">
+                    <div class="story-meta">
+                        <span id="storyDate1">04-20-2018</span>
+                        <p id="storyText1">We met at the bank<br>& fell in love</p>
+                    </div>
+                </article>
+
+                <!-- 2: August 2020 — Fell in love & started living together -->
+                <article class="story-point bottom p2">
+                    <img src="assets/march52020.jpeg" alt="August 2020">
+                    <div class="story-meta">
+                        <span id="storyDate2">08-2020</span>
+                        <p id="storyText2">We fell in love &<br>started living together</p>
+                    </div>
+                </article>
+
+                <!-- 3: April 1, 2021 — First child -->
+                <article class="story-point top p3">
+                    <img src="assets/april12021.jpeg" alt="April 1, 2021">
+                    <div class="story-meta">
+                        <span id="storyDate3">04-01-2021</span>
+                        <p id="storyText3">We welcomed<br>our first baby ♡</p>
+                    </div>
+                </article>
+
+                <!-- 4: August 5, 2023 — Traditional wedding in Ivory Coast -->
+                <article class="story-point bottom p4">
+                    <img src="assets/agust52023.jpeg" alt="August 5, 2023">
+                    <div class="story-meta">
+                        <span id="storyDate4">08-05-2023</span>
+                        <p id="storyText4">Our traditional<br>wedding in Ivory Coast</p>
+                    </div>
+                </article>
+
+                <!-- 5: October 27, 2023 — Moved to Canada -->
+                <article class="story-point top p5">
+                    <img src="assets/october272023.jpeg" alt="October 27, 2023">
+                    <div class="story-meta">
+                        <span id="storyDate5">10-27-2023</span>
+                        <p id="storyText5">We moved to Canada<br>to start a new journey</p>
+                    </div>
+                </article>
+
+                <!-- 6: July 23, 2024 — Second baby -->
+                <article class="story-point bottom p6">
+                    <img src="assets/july232024.jpeg" alt="July 23, 2024">
+                    <div class="story-meta">
+                        <span id="storyDate6">07-23-2024</span>
+                        <p id="storyText6">Our second baby<br>born in Canada ♡</p>
+                    </div>
+                </article>
             </div>
-        </section>
+        </div>
+    </section>
+
+    <!-- Proposal Video Section -->
+    <div class="proposal-section">
+        <div class="proposal-inner">
+            <div class="proposal-text">
+                <div class="proposal-ornament">💍</div>
+                <h2 class="proposal-title" id="proposalTitle">The Moment She Said <em>Yes</em></h2>
+                <p class="proposal-date" id="proposalDate">April 16, 2026</p>
+                <p class="proposal-desc" id="proposalDesc">On this unforgettable evening, I gave an engagement ring to my fiancée, and she said yes! Our forever begins now.</p>
+            </div>
+            <div class="proposal-video-wrap" id="proposalVideoWrap">
+                <video
+                    src="assets/april162026.mp4"
+                    playsinline
+                    preload="metadata"
+                    class="proposal-video"
+                    id="proposalVideo"
+                >
+                    Your browser does not support the video tag.
+                </video>
+                <button class="proposal-play-btn" id="proposalPlayBtn" aria-label="Play video">
+                    <span class="play-icon">▶</span>
+                </button>
+                <div class="proposal-video-label" id="proposalVideoLabel">The Proposal · April 16, 2026</div>
+            </div>
+        </div>
+    </div>
 
     <div class="welcome">
         <div class="gold-rule"><span>✦</span></div>
@@ -103,27 +146,33 @@
         <div class="detail-card">
             <div class="icon-ring">♦</div>
             <h3 id="detail1Title">Ceremony</h3>
-            <p id="detail1Text">Saturday, June 14th<br>5:00 in the evening</p>
+            <p id="detail1Text">Saturday, August 15th<br>1:00 PM<br>Church</p>
         </div>
         <div class="detail-card">
             <div class="icon-ring">♦</div>
             <h3 id="detail2Title">Reception</h3>
-            <p id="detail2Text">Dinner & Dancing<br>7:00 PM onwards</p>
+            <p id="detail2Text">Gold Bar Community Hall<br>6:00 PM<br>4620 105 Ave NW, Edmonton</p>
         </div>
         <div class="detail-card">
             <div class="icon-ring">♦</div>
             <h3 id="detail3Title">Kindly Reply By</h3>
-            <p id="detail3Text">15th May, 2025</p>
+            <p id="detail3Text">June 30, 2026</p>
         </div>
         </div>
     </div>
 
     <div class="form-section">
+        <div class="countdown" id="countdown">
+        <div class="countdown-box">
+            <span id="countdownDays">000</span>
+            <p id="countdownLabel">Days Until Our Wedding</p>
+        </div>
+        </div>
         <div class="form-inner">
         <div class="form-title">
             <span class="flourish">rsvp</span>
             <h2 id="formTitle">Will You Join Us?</h2>
-            <p id="formSubtitle">Please fill in your details below and let us know by May 15th.</p>
+            <p id="formSubtitle">Please fill in your details below and let us know by June 30th.</p>
         </div>
 
         <form id="rsvpForm">
@@ -136,11 +185,6 @@
                 <label id="labelLastName" for="lastName">Last Name</label>
                 <input type="text" id="lastName" placeholder="Last name" required>
             </div>
-            </div>
-
-            <div class="fgroup">
-            <label id="labelEmail" for="email">Email</label>
-            <input type="email" id="email" placeholder="your@email.com" required>
             </div>
 
             <div class="fgroup">
@@ -159,17 +203,7 @@
 
             <div class="fgroup">
             <label id="labelGuests" for="guests">Number of Guests</label>
-            <select id="guests">
-                <option id="opt1" value="1">1 - just me</option>
-                <option id="opt2" value="2">2 people</option>
-                <option id="opt3" value="3">3 people</option>
-                <option id="opt4" value="4">4 people</option>
-            </select>
-            </div>
-
-            <div class="fgroup">
-            <label id="labelDietary" for="dietary">Dietary Requirements</label>
-            <input type="text" id="dietary" placeholder="Any allergies or preferences?">
+            <input type="number" id="guests" min="1" value="1" required>
             </div>
 
             <div class="fgroup">
@@ -183,24 +217,9 @@
         </div>
     </div>
 
-    <div class="admin">
-        <div class="admin-inner">
-        <div class="admin-top">
-            <h2 id="adminHeader">Guest Responses</h2>
-            <div class="stats-row">
-            <div class="stat-item"><span class="n" id="totalCount">0</span><span class="l" id="totalLabel">Total</span></div>
-            <div class="stat-item"><span class="n" id="yesCount">0</span><span class="l" id="attendingLabel">Attending</span></div>
-            <div class="stat-item"><span class="n" id="noCount">0</span><span class="l" id="declinedLabel">Declined</span></div>
-            <div class="stat-item"><span class="n" id="gTotal">0</span><span class="l" id="totalGuestsLabel">Total Guests</span></div>
-            </div>
-        </div>
-        <div id="responseArea"><div class="empty">No responses received yet</div></div>
-        </div>
-    </div>
-
     <footer>
-        <p class="f-names">Sophie & Antoine</p>
-        <p>June 14, 2025 · Paris, France</p>
+        <p class="f-names">Marie & Koffi</p>
+        <p>August 15, 2026 · Edmonton, AB, Canada</p>
     </footer>
 
     <script src="script.js"></script>
