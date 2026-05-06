@@ -1,19 +1,19 @@
 :root {
-  --lavender: #b8a3d4;
-  --lavender-light: #f1ebf8;
-  --lavender-deep: #79609d;
-  --lavender-mid: #9d84c0;
-  --lavender-hero: #352555;
-  --emerald: #145d3f;
-  --emerald-mid: #1f7a56;
-  --emerald-dark: #0c4731;
-  --emerald-glow: rgba(20, 93, 63, 0.12);
+  --lavender: #8e7c93;
+  --lavender-light: #e8d8c3;
+  --lavender-deep: #8e7c93;
+  --lavender-mid: #b8a6b2;
+  --lavender-hero: #4b2e39;
+  --emerald: #0f3d2e;
+  --emerald-mid: #145040;
+  --emerald-dark: #0f3d2e;
+  --emerald-glow: rgba(15, 61, 46, 0.12);
   --gold: #c2a06a;
-  --gold-warm: #d2b483;
-  --gold-pale: #f9f2e5;
-  --cream: #fdfaf6;
-  --dark: #241739;
-  --text: #2a2238;
+  --gold-warm: #c2a06a;
+  --gold-pale: #e8d8c3;
+  --cream: #fdf8f2;
+  --dark: #4b2e39;
+  --text: #4b2e39;
   --font-display: 'Playfair Display', 'Times New Roman', serif;
   --font-body: 'Cormorant Garamond', 'Georgia', serif;
 }
@@ -34,7 +34,7 @@ body {
 /* ── HERO ── */
 .hero {
   min-height: 100vh;
-  background-color: var(--emerald-dark);
+  background-color: var(--cream);
   background-image: url('YOUR_PHOTO_HERE.jpg');
   background-size: cover;
   background-position: center center;
@@ -53,9 +53,9 @@ body {
   inset: 0;
   background: linear-gradient(
     to bottom,
-    rgba(10, 40, 26, 0.25) 0%,
-    rgba(10, 40, 26, 0.55) 60%,
-    rgba(10, 40, 26, 0.75) 100%
+    rgba(253, 248, 242, 0.45) 0%,
+    rgba(253, 248, 242, 0.7) 60%,
+    rgba(253, 248, 242, 0.9) 100%
   );
   z-index: 1;
 }
@@ -100,10 +100,10 @@ body {
 }
 
 .hero-invitation {
-  font-size: 11px;
+  font-size: 13px;
   letter-spacing: 6px;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.4);
+  color: var(--emerald);
   margin-bottom: 40px;
 }
 
@@ -111,14 +111,14 @@ body {
   font-family: var(--font-display);
   font-size: clamp(56px, 9vw, 110px);
   font-weight: 400;
-  color: #fff;
+  color: var(--emerald);
   line-height: 1;
   margin-bottom: 20px;
 }
 
 .hero-names em {
   font-style: italic;
-  color: var(--lavender);
+  color: var(--emerald);
 }
 
 .hero-amp {
@@ -145,10 +145,10 @@ body {
 }
 
 .hero-date {
-  font-size: 13px;
+  font-size: 14px;
   letter-spacing: 4px;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(75, 46, 57, 0.8);
 }
 
 /* ── LANGUAGE HINT ── */
