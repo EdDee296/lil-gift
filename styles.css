@@ -14,6 +14,9 @@
   --cream: #fdf8f2;
   --dark: #4b2e39;
   --text: #4b2e39;
+  --hero-name-color: #cfc3f5;
+  --hero-gold: #c2a06a;
+  --hero-green: #0f5a3d;
   --font-display: 'Playfair Display', 'Times New Roman', serif;
   --font-body: 'Cormorant Garamond', 'Georgia', serif;
 }
@@ -111,14 +114,14 @@ body {
   font-family: var(--font-display);
   font-size: clamp(56px, 9vw, 110px);
   font-weight: 400;
-  color: var(--lavender);
+  color: var(--hero-name-color);
   line-height: 1;
   margin-bottom: 20px;
 }
 
 .hero-names em {
   font-style: italic;
-  color: var(--lavender);
+  color: var(--hero-name-color);
 }
 
 .hero-amp {
@@ -698,9 +701,10 @@ body {
 
 .guest-note {
   margin: -2px 0 12px;
-  font-size: 13px;
+  font-size: 14px;
   letter-spacing: 0.4px;
-  color: rgba(75, 46, 57, 0.75);
+  color: rgba(168, 72, 72, 0.85);
+  font-weight: 600;
 }
 
 .fgroup input,
