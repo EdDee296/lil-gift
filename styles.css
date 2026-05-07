@@ -34,7 +34,7 @@ body {
 /* ── HERO ── */
 .hero {
   min-height: 100vh;
-  background-color: var(--cream);
+  background-color: var(--emerald-dark);
   background-image: url('YOUR_PHOTO_HERE.jpg');
   background-size: cover;
   background-position: center center;
@@ -53,9 +53,9 @@ body {
   inset: 0;
   background: linear-gradient(
     to bottom,
-    rgba(253, 248, 242, 0.45) 0%,
-    rgba(253, 248, 242, 0.7) 60%,
-    rgba(253, 248, 242, 0.9) 100%
+    rgba(15, 61, 46, 0.35) 0%,
+    rgba(15, 61, 46, 0.6) 60%,
+    rgba(15, 61, 46, 0.78) 100%
   );
   z-index: 1;
 }
@@ -103,7 +103,7 @@ body {
   font-size: 13px;
   letter-spacing: 6px;
   text-transform: uppercase;
-  color: var(--emerald);
+  color: rgba(253, 248, 242, 0.75);
   margin-bottom: 40px;
 }
 
@@ -111,14 +111,14 @@ body {
   font-family: var(--font-display);
   font-size: clamp(56px, 9vw, 110px);
   font-weight: 400;
-  color: var(--emerald);
+  color: var(--lavender);
   line-height: 1;
   margin-bottom: 20px;
 }
 
 .hero-names em {
   font-style: italic;
-  color: var(--emerald);
+  color: var(--lavender);
 }
 
 .hero-amp {
@@ -148,7 +148,7 @@ body {
   font-size: 14px;
   letter-spacing: 4px;
   text-transform: uppercase;
-  color: rgba(75, 46, 57, 0.8);
+  color: rgba(253, 248, 242, 0.75);
 }
 
 /* ── LANGUAGE HINT ── */
@@ -694,6 +694,13 @@ body {
   margin-bottom: 8px;
   font-weight: 600;
   font-family: var(--font-body);
+}
+
+.guest-note {
+  margin: -2px 0 12px;
+  font-size: 13px;
+  letter-spacing: 0.4px;
+  color: rgba(75, 46, 57, 0.75);
 }
 
 .fgroup input,

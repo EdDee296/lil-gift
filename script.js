@@ -38,6 +38,7 @@ const I18N = {
     labelYes: 'Attending',
     labelNo: 'Regretfully declining',
     labelGuests: 'Number of Guests',
+    guestsNote: 'Please include only yourself, your spouse, and your children.',
     labelMessage: 'Message to the couple (optional)',
     submitBtn: 'Send My RSVP',
     submitting: 'Sending...',
@@ -87,6 +88,7 @@ const I18N = {
     labelYes: 'Présent(e)',
     labelNo: 'Ne pourra pas venir',
     labelGuests: "Nombre d'invités",
+    guestsNote: 'Merci d\'inclure seulement vous, votre conjoint(e) et vos enfants.',
     labelMessage: 'Message pour les mariés (optionnel)',
     submitBtn: 'Envoyer ma réponse',
     submitting: 'Envoi en cours...',
@@ -202,6 +204,7 @@ function setLanguage(lang) {
   byId('labelYes').innerHTML = `<span class="card-icon">♡</span>${t.labelYes}`;
   byId('labelNo').innerHTML  = `<span class="card-icon">○</span>${t.labelNo}`;
   byId('labelGuests').textContent   = t.labelGuests;
+  byId('guestsNote').textContent    = t.guestsNote;
   byId('labelMessage').textContent  = t.labelMessage;
   byId('submitBtn').textContent     = t.submitBtn;
 
