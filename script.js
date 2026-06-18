@@ -27,7 +27,7 @@ const I18N = {
     detail1Title: 'Ceremony',
     detail1Text: 'Saturday, August 15th<br>1:00 PM<br>Saint Joachim Catholic Church',
     detail2Title: 'Reception',
-    detail2Text: 'Gold Bar Community Hall<br>6:00 PM<br>4620 105 Ave NW, Edmonton',
+    detail2Text: 'Gold Bar Community Hall<br>4:00 PM<br>4620 105 Ave NW, Edmonton',
     detail3Title: 'Kindly Reply By',
     detail3Text: 'June 30, 2026',
     formTitle: 'Will You Join Us?',
@@ -39,6 +39,7 @@ const I18N = {
     labelNo: 'Regretfully declining',
     labelGuests: 'Number of Guests',
     guestsNote: 'Please include only yourself, your spouse, and your children.',
+    giftNote: 'Your presence at our wedding is the greatest gift of all. However, should you wish to honor us with a gift, a monetary contribution would be sincerely appreciated.',
     labelMessage: 'Message to the couple (optional)',
     submitBtn: 'Send My RSVP',
     submitting: 'Sending...',
@@ -77,7 +78,7 @@ const I18N = {
     detail1Title: 'Cérémonie',
     detail1Text: 'Samedi 15 août<br>13h00<br>Église catholique Saint-Joachim',
     detail2Title: 'Réception',
-    detail2Text: 'Gold Bar Community Hall<br>18h00<br>4620 105 Ave NW, Edmonton',
+    detail2Text: 'Gold Bar Community Hall<br>16h00<br>4620 105 Ave NW, Edmonton',
     detail3Title: 'Répondez avant',
     detail3Text: '30 juin 2026',
     formTitle: 'Serez-vous des nôtres ?',
@@ -101,6 +102,7 @@ const I18N = {
     declinedShort: 'Absent(e)',
     guestsShort: 'invite(s)',
     countdownLabel: 'Jours avant notre mariage',
+    giftNote: 'Votre présence est le plus beau des cadeaux. Si vous souhaitez toutefois faire un geste, une petite contribution pour notre avenir commun serait chaleureusement appréciée. Merci.'
   }
 };
 
@@ -205,6 +207,7 @@ function setLanguage(lang) {
   byId('labelNo').innerHTML  = `<span class="card-icon">○</span>${t.labelNo}`;
   byId('labelGuests').textContent   = t.labelGuests;
   byId('guestsNote').textContent    = t.guestsNote;
+  byId('giftNote').textContent      = t.giftNote;
   byId('labelMessage').textContent  = t.labelMessage;
   byId('submitBtn').textContent     = t.submitBtn;
 
